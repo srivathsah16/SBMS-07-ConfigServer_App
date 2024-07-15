@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SBMS-07-ConfigServer_App
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ashokitschool/configuration_properties
+          clone-on-start: true
